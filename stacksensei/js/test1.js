@@ -1,3 +1,3 @@
 if(location.pathname == '/'){
-  $(".mainbox").css({'order':'3'}); 
+  $(".main-box").css({'order':'3'}); 
 }
