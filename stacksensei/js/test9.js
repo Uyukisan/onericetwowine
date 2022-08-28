@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $(".markdown-body pre").each(function(){
+    $(". pre").each(function(){
      let cptext = $(this).text().trim();
      let newBtn = $('<button class="cpbtn" cptext>COPY</button>');
     newBtn.attr('cptext',cptext);
