@@ -9,6 +9,7 @@ $(document).ready(function(){
   $(".cpbtn").on('click',function(){
     const input = document.createElement('textarea');
     document.body.appendChild(input);
+    input.value = $(this).attr('cptext');
     input.select();
     document.execCommand("Copy");
     document.body.removeChild(input);
